@@ -1,0 +1,23 @@
+#app {
+  margin-left: 30%;
+  margin-top: 100px;
+  width: 400px;
+  height: fit-content;
+  border: 2px solid grey;
+  background-color: grey;
+}
+.action {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.display {
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+}
+button {
+  width: 80px;
+  height: 80px;
+  margin: 7px;
+  border-radius: 50%;
+}

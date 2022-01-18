@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="display">
+        <h1>{{ sum }}</h1>
+      </div>
+
+      <div class="action">
+        <button v-for="operator of operators" @click="addToSum(operator)">
+          {{ operator }}
+        </button>
+        <button @click="evalSum">=</button>
+        <button @click="clearSum()">Cancel</button>
+      </div>
+    </div>
+  </body>
+</html>
