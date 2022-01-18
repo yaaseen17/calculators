@@ -59,9 +59,7 @@ h1 {
 }
 
 body {
-  background: url("http://fc05.deviantart.net/fs32/f/2008/227/4/a/Ibex_Wallpaper_by_willwill100.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: rgb(95, 50, 13);
 }
 .special {
   background-color: black;
