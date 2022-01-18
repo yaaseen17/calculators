@@ -16,8 +16,8 @@
         <button v-for="operator of operators" @click="addToSum(operator)">
           {{ operator }}
         </button>
-        <button @click="evalSum">=</button>
-        <button @click="clearSum()">AC</button>
+        <button class="special" @click="evalSum">=</button>
+        <button class="special" @click="clearSum()">AC</button>
       </div>
     </div>
   </body>
